@@ -1,7 +1,3 @@
-import Stagiaire.stagiaire;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class menuPrincipale {
@@ -27,15 +23,15 @@ public class menuPrincipale {
 
             switch (choix) {
                 case 1:
-                    gestionHoraires.menuHoraires();
+                    GestionHoraires.menuHoraires();
                     break;
 
                 case 2:
-                    gestionsInscriptions.menuInscription();
+                    GestionsInscriptions.menuInscription();
                     break;
 
                 case 3:
-                    gestionActivites.menuActivites();
+                    GestionActivites.menuActivites();
                     break;
 
                 case 0:
