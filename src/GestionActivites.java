@@ -29,21 +29,27 @@ public class GestionActivites {
             switch (choix) {
                 case 1:
 
+                    menuActivites();
                     break;
 
                 case 2:
                     List<Activite> activites = ActiviteFactory.Ajouter();
+
                     for(Activite a  : activites){
                         System.out.println(a);
                     }
+
+                    menuActivites();
                     break;
 
                 case 3:
 
+                    menuActivites();
                     break;
 
                 case 4:
 
+                    menuActivites();
                     break;
 
                 case 0:

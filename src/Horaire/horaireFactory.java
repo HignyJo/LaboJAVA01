@@ -39,7 +39,7 @@ public class horaireFactory {
         }
         return h;
     }
-    
+
 /*
     public static List<Horaire> afficher() {
 

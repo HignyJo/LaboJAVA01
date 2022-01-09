@@ -29,18 +29,27 @@ public class GestionsInscriptions {
             switch (choix) {
                 case 1:
 
+                    menuInscription();
                     break;
 
                 case 2:
                     List<Stagiaire> stagiaires = StagiaireFactory.Ajouter();
+
+                    for (Stagiaire s : stagiaires) {
+                        System.out.println(s);
+                    }
+
+                    menuInscription();
                     break;
 
                 case 3:
 
+                    menuInscription();
                     break;
 
                 case 4:
 
+                    menuInscription();
                     break;
 
                 case 0:

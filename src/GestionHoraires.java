@@ -29,6 +29,7 @@ public class GestionHoraires {
             switch (choix) {
                 case 1:
 
+                    menuHoraires();
                     break;
 
                 case 2:
@@ -36,14 +37,17 @@ public class GestionHoraires {
                     for(Horaire h  : horaires){
                         System.out.println(h);
                     }
+                    menuHoraires();
                     break;
 
                 case 3:
 
+                    menuHoraires();
                     break;
 
                 case 4:
 
+                    menuHoraires();
                     break;
 
                 case 0:

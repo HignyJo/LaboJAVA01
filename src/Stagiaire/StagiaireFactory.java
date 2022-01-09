@@ -31,7 +31,6 @@ public class StagiaireFactory {
             LocalDate birthDay = LocalDate.parse(date, Stagiaire.formatter);
 
             s.add(new Stagiaire(nom, prenom, birthDay));
-            List<Stagiaire> stagiaires = s;
 
             System.out.println("--------------------");
             System.out.println("| Stagiaire ajouté |");
@@ -48,10 +47,8 @@ public class StagiaireFactory {
         return s;
     }
 
-
-/*
+    /*
     public static List<Stagiaire> afficher() {
-
     }
 
     public static List<Stagiaire> supprimer() {
