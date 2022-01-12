@@ -41,7 +41,7 @@ public class horaireFactory {
     }
 
 /*
-    public static List<Horaire> afficher() {
+    public static List<Horaire> modifier() {
 
     }
 

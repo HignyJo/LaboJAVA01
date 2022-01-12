@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class menuPrincipale {
 
-    static void principaleMenu() {
+     static void principaleMenu() {
 
         int choix = -1;
 

@@ -1,6 +1,7 @@
 import Activite.Activite;
 import Activite.ActiviteFactory;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -9,6 +10,8 @@ public class GestionActivites {
     static void menuActivites() {
 
         int choix = -1;
+
+        List<Activite> activites = new ArrayList<>();
 
         while (choix > 3 || choix < 0) {
 
@@ -28,17 +31,17 @@ public class GestionActivites {
 
             switch (choix) {
                 case 1:
-
+                    for(Activite a  : activites){
+                        System.out.println(a);
+                    }
                     menuActivites();
                     break;
 
                 case 2:
-                    List<Activite> activites = ActiviteFactory.Ajouter();
-
+                    activites = ActiviteFactory.Ajouter();
                     for(Activite a  : activites){
                         System.out.println(a);
                     }
-
                     menuActivites();
                     break;
 

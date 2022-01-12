@@ -25,7 +25,7 @@ public class StagiaireFactory {
             nom = scanner.nextLine();
             System.out.println("Prenom : ");
             prenom = scanner.nextLine();
-            System.out.println("Date de naissance : ( JJ MMMM YYYY)  ");
+            System.out.println("Date de naissance : ( JJ-MMMM-YYYY)  ");
             date = scanner.nextLine();
 
             LocalDate birthDay = LocalDate.parse(date, Stagiaire.formatter);
@@ -50,6 +50,7 @@ public class StagiaireFactory {
     /*
     public static List<Stagiaire> afficher() {
     }
+
 
     public static List<Stagiaire> supprimer() {
 

@@ -39,11 +39,11 @@ public class ActiviteFactory {
     }
 
 /*
-    public static List<Horaire> afficher() {
+    public static List<Activite> modifier() {
 
     }
 
-    public static List<Horaire> supprimer() {
+    public static List<Activite> supprimer() {
 
     }
 */

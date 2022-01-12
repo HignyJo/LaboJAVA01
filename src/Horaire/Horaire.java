@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 
 public class Horaire {
 
-    static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d-MMMM-yyyyy HH:mm");
+    static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d-MMMM-yyyyy");
     LocalDateTime horair;
 
     public Horaire(LocalDateTime horair) {
